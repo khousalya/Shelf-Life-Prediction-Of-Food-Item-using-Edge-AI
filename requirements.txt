@@ -1,0 +1,21 @@
+# --- web application ---------------------------------------------------------
+# Runs on any Python 3.10+. This is all the monitoring interface needs to serve the
+# kinetic baseline estimator.
+Flask>=3.0,<4.0
+
+# --- the trained shelf-life model (optional) ---------------------------------
+# To serve ml/rsl_multimodal, use requirements-model.txt in a Python 3.12
+# environment - TensorFlow publishes no wheel for Python 3.14:
+#
+#       python3.12 -m venv .venv-model
+#       .venv-model/bin/pip install -r requirements-model.txt
+#       sh tools/serve.sh
+#
+# To retrain the model, use ml/rsl_multimodal/requirements.txt instead.
+
+# --- Raspberry Pi (optional) -------------------------------------------------
+# Sensor drivers for tools/pi_agent.py:
+#   adafruit-circuitpython-bmp280
+#   adafruit-circuitpython-sht31d
+# To serve the model on the Pi itself, install tflite-runtime, simplejpeg,
+# numpy, pillow and scikit-learn==1.8.0 instead of tensorflow.
