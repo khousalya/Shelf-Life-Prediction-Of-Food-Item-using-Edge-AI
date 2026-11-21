@@ -1,5 +1,0 @@
-* change the pi_input.json when new input
-
-* run the Preprecessinglayer.ipynb
-
-* run this command next  :  python "my files\predict_all_models.py" --input "my files\prepared_input.npz"
