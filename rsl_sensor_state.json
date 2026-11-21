@@ -1,0 +1,85 @@
+{
+  "window": 5,
+  "bounds": {
+    "Temperature": {
+      "lower": 27.455000000000002,
+      "upper": 29.334999999999997,
+      "n_outliers": 205,
+      "reproduces_Clean_max_abs_error": 7.105427357601002e-15
+    },
+    "Humidity": {
+      "lower": 52.55,
+      "upper": 62.63000000000001,
+      "n_outliers": 196,
+      "reproduces_Clean_max_abs_error": 7.105427357601002e-15
+    },
+    "Gas": {
+      "lower": 171.5,
+      "upper": 191.5,
+      "n_outliers": 80,
+      "reproduces_Clean_max_abs_error": 0.0
+    }
+  },
+  "last_clean": {
+    "Temperature": 29.1,
+    "Humidity": 57.0,
+    "Gas": 180.0
+  },
+  "raw": {
+    "Temperature": [
+      28.1,
+      28.1,
+      28.1,
+      28.1,
+      29.1
+    ],
+    "Humidity": [
+      59.0,
+      59.0,
+      58.0,
+      59.0,
+      57.0
+    ],
+    "Gas": [
+      180.0,
+      180.0,
+      180.0,
+      177.0,
+      180.0
+    ]
+  },
+  "smoothed": {
+    "Temperature": [
+      28.100000000000005,
+      28.1,
+      28.1,
+      28.1,
+      28.3
+    ],
+    "Humidity": [
+      58.333333333333336,
+      58.5,
+      58.4,
+      58.6,
+      58.4
+    ],
+    "Gas": [
+      180.0,
+      180.0,
+      180.0,
+      179.4,
+      179.4
+    ]
+  },
+  "prev_smoothed": {
+    "Temperature": 28.3,
+    "Humidity": 58.4,
+    "Gas": 179.4
+  },
+  "initial_smoothed": {
+    "Temperature": 28.1,
+    "Humidity": 58.0,
+    "Gas": 180.0
+  },
+  "last_timestamp": "2026-11-21T10:52:00+05:30"
+}
